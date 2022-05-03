@@ -22,3 +22,6 @@ print(portfolio[0])
 print(portfolio[1])
 print(portfolio[1][1])
 print(portfolio[1][2])
+
+total = sum([shares * price for _, shares, price in portfolio])
+print(total)
